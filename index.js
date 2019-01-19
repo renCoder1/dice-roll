@@ -1,4 +1,4 @@
-alert("hello");
+alert("Welcome to 🎲Dice Roll🎲 May the lucky person win🤞🙌!");
 
 function onRollClick() {
   var randomDiceNumber1 = Math.floor(Math.random() * 6 + 1);
