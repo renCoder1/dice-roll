@@ -67,6 +67,20 @@ p{
 .result_display_h2{
   font-family: fantasy;
 }
-@media (max-width: 900px){
 
+@media (max-width: 526px) {
+  .roll-btn-div{
+  margin-top: 50px;
 }
+h1{
+  font-size: 5rem;
+}
+ }
+ @media (max-width: 361px) {
+   .roll-btn-div{
+   margin-top: 20px;
+   }
+ h1{
+   font-size: 4rem;
+ }
+  }
