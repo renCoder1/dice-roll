@@ -68,7 +68,7 @@ p{
   font-family: fantasy;
 }
 
-@media (max-width: 526px) {
+/* @media (max-width: 526px) {
   .roll-btn-div{
   margin-top: 50px;
 }
@@ -84,3 +84,4 @@ h1{
    font-size: 4rem;
  }
   }
+ */
