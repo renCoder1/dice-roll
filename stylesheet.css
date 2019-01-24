@@ -67,11 +67,24 @@ p{
 .result_display_h2{
   font-family: fantasy;
 }
-@media screen and (max-device-width: 480px) {
+@media only screen 
+    and (min-device-width : 414px) 
+    and (max-device-width : 736px)
+    and (device-width : 414px)
+    and (device-height : 736px)
+    and (orientation : portrait) 
+    and (-webkit-min-device-pixel-ratio : 3) 
+    and (-webkit-device-pixel-ratio : 3)
+    {
+         h1{
+    font-size: 4rem;
+  }/* code */
+    }
+/* @media screen and (max-device-width: 480px) {
   h1{
     font-size: 4rem;
   }
-}
+} */
 /*  @media (max-width: 414px){
   h1{
     font-size: 4rem;
