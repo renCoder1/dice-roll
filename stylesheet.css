@@ -76,6 +76,16 @@ h1{
   font-size: 5rem;
 }
  }
+  @media screen and (min-device-width : 414px)
+and (max-device-height : 736px) and (max-resolution: 401dpi)
+{
+  .roll-btn-div{
+  margin-top: 20px;
+  }
+h1{
+  font-size: 4rem;
+}
+}
  @media (max-width: 361px) {
    .roll-btn-div{
    margin-top: 20px;
