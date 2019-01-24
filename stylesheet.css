@@ -67,8 +67,12 @@ p{
 .result_display_h2{
   font-family: fantasy;
 }
-
- @media (max-width: 414px){
+@media screen and (max-device-width: 480px) {
+  h1{
+    font-size: 4rem;
+  }
+}
+/*  @media (max-width: 414px){
   h1{
     font-size: 4rem;
   }
@@ -76,7 +80,7 @@ p{
   margin-top: 60px;
   }
 }
-
+ */
 /* @media (max-width: 526px) {
   .roll-btn-div{
   margin-top: 50px;
