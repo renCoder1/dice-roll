@@ -67,16 +67,16 @@ p{
 .result_display_h2{
   font-family: fantasy;
 }
- @media screen and (min-device-width : 414px)
-and (max-device-height : 736px) and (max-resolution: 401dpi)
-{
-  .roll-btn-div{
-  margin-top: 20px;
+
+ @media (max-width: 414px){
+  h1{
+    font-size: 4rem;
   }
-h1{
-  font-size: 4rem;
+  .roll-btn-div{
+  margin-top: 60px;
+  }
 }
-}
+
 /* @media (max-width: 526px) {
   .roll-btn-div{
   margin-top: 50px;
