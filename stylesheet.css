@@ -68,63 +68,9 @@ p{
   font-family: fantasy;
 }
 
-@media screen 
-    and (min-device-width : 1080px) 
-    and (max-device-width : 1920px) 
-    and (min-resolution: 401dpi) 
-    and (device-aspect-ratio:16/9) 
-{ 
-
-h1{
-  color: red;
-}
-
-}
-
-
-
-/* @media only screen 
-    and (min-device-width : 414px) 
-    and (max-device-width : 736px)
-    and (device-width : 414px)
-    and (device-height : 736px)
-    and (orientation : portrait) 
-    and (-webkit-min-device-pixel-ratio : 3) 
-    and (-webkit-device-pixel-ratio : 3)
-    {
-         h1{
-    font-size: 1rem;
-  }/* code */
-    } */
-/* @media screen and (max-device-width: 480px) {
+@media screen and (max-device-width: 414px) {
   h1{
     font-size: 4rem;
   }
-} */
-/*  @media (max-width: 414px){
-  h1{
-    font-size: 4rem;
-  }
-  .roll-btn-div{
-  margin-top: 60px;
-  }
 }
- */
-/* @media (max-width: 526px) {
-  .roll-btn-div{
-  margin-top: 50px;
-}
-h1{
-  font-size: 5rem;
-}
- }
- 
- @media (max-width: 361px) {
-   .roll-btn-div{
-   margin-top: 20px;
-   }
- h1{
-   font-size: 4rem;
- }
-  }
- */
+
