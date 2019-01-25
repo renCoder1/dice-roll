@@ -70,7 +70,7 @@ p{
 
 @media screen and (max-device-width: 414px) {
   h1{
-    font-size: 4rem;
+    font-size: 2rem;
     background-color: red;
   }
 }
