@@ -74,13 +74,13 @@ p{
     background-color: blue;
   }
   .dice{
-    margin-left: 1%;
+    margin-left: 0.5%;
   }
   .dice-img{
     width: 90%;
   }
   .roll-btn{
-     margin-top: 2%;
+     margin-top: 3.5%;
   }  
   p{
     font-size: 1rem;
