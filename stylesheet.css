@@ -76,6 +76,9 @@ p{
   .dice{
     margin-left: 1%;
   }
+  .dice-img{
+    width: 50%;
+  }
   .roll-btn{
      margin-top: 2%;
   }  
