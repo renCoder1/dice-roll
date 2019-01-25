@@ -1,5 +1,5 @@
 body{
-  background-color: #f8b500;
+ background-color: #f8b500;
 text-align: center;
 }
 
@@ -7,28 +7,20 @@ h1{
   font-family: 'Lobster', cursive;
   font-size: 8rem;
   text-shadow: 5px 0 yellow;
-  /* #232931; */
-  margin: 30px;
-  /* //font-size: 8rem; */
+  margin-top: 2%;
+ 
 }
 
 .container{
   margin: auto;
   width:70%;
-  /* text-align: center; */
-
-
-  /* margin: 10% auto; */
 }
 .dice{
-  /* text-align: center; */
   display: inline-block;
-  /* text-align: center; */
-width: 35%;
-margin-left: 3%;
-
-
+  width: 35%;
+  margin-left: 3%;
 }
+
 p{
   font-family: 'Indie Flower', cursive;
   font-size: 2rem;
@@ -47,6 +39,7 @@ p{
   border-color: #ff7517;
   outline: none;
 }
+
 .btn:focus,.btn:active {
    outline: none !important;
    box-shadow: none;
@@ -67,11 +60,31 @@ p{
 .result_display_h2{
   font-family: fantasy;
 }
+/* Media queries */
+
+@media (max-width: 515px){
+ h1{
+   font-size: 6rem;
+
+ }
+ .roll-btn-div{
+ margin-top: 60px;
+ }
+}
+
+@media (max-width: 414px){
+  h1{
+    font-size: 4rem;
+  }
+  .roll-btn-div{
+  margin-top: 60px;
+  }
+}
+/* media queries for iphone 6s */
 
 @media screen and (max-device-width: 414px) {
   h1{
     font-size: 2rem;
-    background-color: green;
   }
   .dice{
     margin-left: 0.5%;
