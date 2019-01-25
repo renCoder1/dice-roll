@@ -71,7 +71,7 @@ p{
 @media screen and (max-device-width: 414px) {
   h1{
     font-size: 2rem;
-    background-color: blue;
+    background-color: green;
   }
   .dice{
     margin-left: 0.5%;
